@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aquí podrás añadir estilos globales custom si los necesitas */
+@media (max-width: 768px) {
+    .force-hide-mobile {
+        @apply hidden;
+    }
+}

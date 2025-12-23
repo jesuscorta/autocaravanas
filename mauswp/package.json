@@ -1,0 +1,12 @@
+{
+  "name": "mauswp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/src/css/app.css -o ./dist/app.css --watch",
+    "build": "tailwindcss -i ./assets/src/css/app.css -o ./dist/app.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
